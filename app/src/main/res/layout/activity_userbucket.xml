@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/testbutton"
+        android:text="send"
+        android:onClick="CreateChat"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="295dp" />
+
+<ListView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/listMe"
+    android:layout_alignParentTop="true"
+    android:layout_above="@id/testbutton"
+    android:layout_toLeftOf="@+id/listYou" />
+
+<ListView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/listYou"
+    android:layout_alignParentTop="true"
+    android:layout_alignBottom="@+id/listMe"
+    android:layout_alignLeft="@+id/testbutton" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editComment"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/listMe"
+        android:layout_toStartOf="@+id/listYou" />
+
+</RelativeLayout>

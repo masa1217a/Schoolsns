@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"  >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/text"
+        android:textSize="60dp"
+        android:textIsSelectable="false"
+        android:background="#1565C0"
+        android:autoText="false"
+        android:textColor="#EEEEEE"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="map"
+        android:id="@+id/text0"
+        android:textSize="30dp"
+        android:textIsSelectable="false"
+        android:background="#1565C0"
+        android:autoText="false"
+        android:textColor="#EEEEEE"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ImageView
+        android:id="@+id/imageview2"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:src="@drawable/img_map"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/ScrollView1"
+        android:layout_width="846dp"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:layout_gravity="center|top"
+        android:fillViewport="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/text">
+
+    </ScrollView>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:weightSum="1"
+        android:layout_below="@+id/imageview2"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:1号館(事務室)"
+            android:id="@+id/text1"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2:2号館（一般教室、図書室）"
+            android:id="@+id/text2"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:3号館（共通実習棟）"
+            android:id="@+id/text3"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4:4号館（機械系実習棟）"
+            android:id="@+id/text4"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5:5号館（住居系実習棟）"
+            android:id="@+id/text5"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6:6号館（機械・電子情報系実習棟）"
+            android:id="@+id/text6"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text5"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7:7号館（応用課程、教室、実習棟）"
+            android:id="@+id/text7"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text6"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:階段教室"
+            android:id="@+id/text8"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text7"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9:体育館"
+            android:id="@+id/text9"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text8"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:学生ホール[食堂]"
+            android:id="@+id/text10"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text9"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:男子学生寮[三峰寮]"
+            android:id="@+id/text11"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text10"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:学生寮入口・管理室・食堂"
+            android:id="@+id/text12"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text11"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13:女子学生寮[白萩寮]"
+            android:id="@+id/text13"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text12"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14:学園プラザ"
+            android:id="@+id/text14"
+            android:textSize="30dp"
+            android:textIsSelectable="false"
+            android:background="#1565C0"
+            android:autoText="false"
+            android:textColor="#EEEEEE"
+            android:layout_below="@+id/text13"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/text1" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
