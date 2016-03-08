@@ -42,7 +42,7 @@ public class ImageFragment extends Fragment {
     }
 
     public ImageFragment() {
-        // Required empty public constructor
+        // これ必要
     }
 
     @Override
@@ -56,12 +56,13 @@ public class ImageFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        // 画面に表示
         View rootView = inflater.inflate(mResourceId, container, false);
 
         return rootView;
     }
 
+    //何かアクションを起こすとデータが格納される
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
